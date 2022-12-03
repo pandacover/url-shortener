@@ -18,6 +18,14 @@ body {
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+html {
+	color-scheme: dark;
+}
+body {
+	color: white;
+	background: var(--primary-black);
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -54,14 +62,4 @@ body {
 
 .error {
 	color: var(--primary-red);
-}
-
-@media (prefers-color-scheme: dark) {
-	html {
-		color-scheme: dark;
-	}
-	body {
-		color: white;
-		background: var(--primary-black);
-	}
 }

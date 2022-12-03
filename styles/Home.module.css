@@ -54,3 +54,15 @@
 .footer a {
 	color: var(--primary-green);
 }
+
+@media screen and (max-width: 516px) {
+	.container {
+		width: 90%;
+		left: 5%;
+	}
+
+	.urlContainer {
+		width: 90%;
+		left: 5%;
+	}
+}
