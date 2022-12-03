@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState, FormEvent } from "react";
 import { shorten } from "../utils/shorten";
 import Spinner from "../components/spinner";
-import styles from "../styles/home.module.css";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	const [link, setLink] = useState("");
