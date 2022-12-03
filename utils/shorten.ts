@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const ENDPOINT = "https://api.shrtco.de/v2/shorten?url=";
+const ENDPOINT = process.env.NEXT_PUBLIC_ENDPOINT || "";
 
 export const shorten = async (URL: string): Promise<string> => {
 	const response = await axios(ENDPOINT + URL);
